@@ -7,6 +7,7 @@
 - [ ] Add a production build workflow for GitHub Pages.
 - [ ] Configure the correct Vite base path and asset URLs.
 - [ ] Verify the deployed GitHub Pages URL.
+- [ ] Diagnose and fix the failed GitHub Actions run.
 
 # Visual refresh checklist
 
