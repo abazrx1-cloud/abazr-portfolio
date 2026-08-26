@@ -7,7 +7,9 @@
 - [ ] Add a production build workflow for GitHub Pages.
 - [ ] Configure the correct Vite base path and asset URLs.
 - [ ] Verify the deployed GitHub Pages URL.
-- [ ] Diagnose and fix the failed GitHub Actions run.
+- [x] Diagnose and fix the failed GitHub Actions run.
+- [ ] Fix the GitHub Pages subpath routing that shows the app 404 page.
+- [ ] Rebuild, redeploy, and verify the GitHub Pages homepage.
 
 # Visual refresh checklist
 
