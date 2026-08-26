@@ -36,7 +36,7 @@ export default function Home() {
     <div className="site-shell">
       <header className="site-header">
         <a className="brand" href="#home" onClick={closeMenu} aria-label="الصفحة الرئيسية لـ ABAZR">
-          <span className="brand-logo-frame" aria-hidden="true"><img className="brand-logo" src="/manus-storage/abazr-mirghani-logo_74882025.png" alt="" /></span>
+          <span className="brand-logo-frame" aria-hidden="true"><img className="brand-logo" src="https://raw.githubusercontent.com/abazrx1-cloud/abazr-portfolio/main/client/public/abazr-mirghani-logo.png" alt="" /></span>
           <span className="brand-name">ABAZR</span>
         </a>
         <nav className={menuOpen ? "main-nav is-open" : "main-nav"} aria-label="التنقل الرئيسي">
