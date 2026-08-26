@@ -10,5 +10,5 @@
 
 - [ ] Verify the project working tree and current files.
 - [x] User created a GitHub repository visible as `abazr_portfoli...`; verify the full name.
-- [ ] Push the website source and configuration to the repository.
-- [ ] Confirm the remote repository and default branch are accessible.
+- [ ] Push the Arabic website source and configuration to `abazrx1-cloud/abazr_portfoli`.
+- [ ] Confirm the remote repository, default branch, and uploaded files are accessible.
