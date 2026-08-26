@@ -36,8 +36,8 @@ export default function Home() {
     <div className="site-shell">
       <header className="site-header">
         <a className="brand" href="#home" onClick={closeMenu} aria-label="الصفحة الرئيسية لـ ABAZR">
-          <span className="brand-mark" aria-hidden="true"><span /></span>
-          <span>ABAZR</span>
+          <span className="brand-logo-frame" aria-hidden="true"><img className="brand-logo" src="/manus-storage/abazr-mirghani-logo_74882025.png" alt="" /></span>
+          <span className="brand-name">ABAZR</span>
         </a>
         <nav className={menuOpen ? "main-nav is-open" : "main-nav"} aria-label="التنقل الرئيسي">
           {[["نبذة", "about"], ["الخدمات", "services"], ["المشروع", "project"], ["الذكاء الاصطناعي", "ai"], ["تواصل", "contact"]].map(([label, id]) => (

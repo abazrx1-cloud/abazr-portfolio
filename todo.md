@@ -1,5 +1,18 @@
 # GitHub upload checklist
 
+# Logo integration checklist
+
+- [ ] Prepare the user-provided logo as a deployable web asset.
+- [ ] Add the logo beside the name in the header and tune responsive sizing.
+- [ ] Verify the logo on desktop and mobile, then save a new checkpoint.
+
+# Namecheap migration checklist
+
+- [ ] Confirm the Namecheap hosting type and target domain.
+- [ ] Prepare a static production package compatible with Namecheap public_html.
+- [ ] Upload files and configure the domain/DNS and HTTPS.
+- [ ] Verify the live site and document the update workflow.
+
 # GitHub Pages deployment checklist
 
 - [ ] Make `abazrx1-cloud/abazr-portfolio` public with the user's explicit approval.
@@ -10,7 +23,8 @@
 - [x] Diagnose and fix the failed GitHub Actions run.
 - [ ] Fix the GitHub Pages subpath routing that shows the app 404 page.
 - [x] Rebuild, redeploy, and verify the GitHub Pages homepage.
-- [ ] Recheck the live GitHub Pages response and diagnose the user's access failure.
+- [x] Recheck the live GitHub Pages response and diagnose the user's access failure.
+- [ ] Reproduce the reported browser failure and verify the exact URL/path.
 - [ ] Fix any remaining routing or deployment issue and re-verify from an external request.
 
 # Visual refresh checklist
