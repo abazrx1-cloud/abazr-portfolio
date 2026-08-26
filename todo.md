@@ -1,5 +1,12 @@
 # GitHub upload checklist
 
+# Visual refresh checklist
+
+- [ ] Review the new Nile Market URL and confirm the destination.
+- [ ] Refine the palette and replace the typography with a professional Arabic-friendly system.
+- [x] Update all Nile Market links and labels.
+- [ ] Test desktop and mobile previews, then save a new checkpoint for the visual refresh.
+
 # Arabic localization checklist
 
 - [ ] Translate all visible portfolio content and navigation into Arabic.

@@ -36,7 +36,7 @@ export default function Home() {
     <div className="site-shell">
       <header className="site-header">
         <a className="brand" href="#home" onClick={closeMenu} aria-label="الصفحة الرئيسية لـ ABAZR">
-          <span className="brand-mark"><span /></span>
+          <img className="brand-logo" src="/manus-storage/abazr-mark_b4913521.png" alt="" aria-hidden="true" />
           <span>ABAZR</span>
         </a>
         <nav className={menuOpen ? "main-nav is-open" : "main-nav"} aria-label="التنقل الرئيسي">
@@ -108,9 +108,9 @@ export default function Home() {
               <h2>Nile<br /><em>Market</em></h2>
               <p className="project-description">مفهوم سوق رقمي حديث يربط التجار والعملاء عبر تجربة تسوّق إلكترونية أبسط.</p>
               <div className="project-tags"><span>سوق رقمي</span><span>تجارة إلكترونية</span><span>السودان</span></div>
-              <a className="button button-outline" href="https://nilemarket.whacka.app" target="_blank" rel="noreferrer">زيارة المشروع <ExternalLink size={16} /></a>
+              <a className="button button-outline" href="https://nilemarket.online" target="_blank" rel="noreferrer">زيارة المشروع <ExternalLink size={16} /></a>
             </div>
-            <div className="project-art"><img src="/manus-storage/nile-market_da54a745.jpg" alt="مفهوم سوق Nile Market الرقمي" /><div className="art-caption">NILE MARKET <span>2024 — مستمر</span></div></div>
+            <div className="project-art"><img src="/manus-storage/nile-market_da54a745.jpg" alt="مفهوم سوق النيل الرقمي" /><div className="art-caption">NILE MARKET <span>2024 — مستمر</span></div></div>
           </div>
         </section>
 
