@@ -1,5 +1,13 @@
 # GitHub upload checklist
 
+# GitHub Pages deployment checklist
+
+- [ ] Make `abazrx1-cloud/abazr-portfolio` public with the user's explicit approval.
+- [ ] Confirm repository visibility and GitHub Pages eligibility.
+- [ ] Add a production build workflow for GitHub Pages.
+- [ ] Configure the correct Vite base path and asset URLs.
+- [ ] Verify the deployed GitHub Pages URL.
+
 # Visual refresh checklist
 
 - [ ] Review the new Nile Market URL and confirm the destination.

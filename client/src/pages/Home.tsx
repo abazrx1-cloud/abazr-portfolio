@@ -36,7 +36,7 @@ export default function Home() {
     <div className="site-shell">
       <header className="site-header">
         <a className="brand" href="#home" onClick={closeMenu} aria-label="الصفحة الرئيسية لـ ABAZR">
-          <img className="brand-logo" src="/manus-storage/abazr-mark_b4913521.png" alt="" aria-hidden="true" />
+          <span className="brand-mark" aria-hidden="true"><span /></span>
           <span>ABAZR</span>
         </a>
         <nav className={menuOpen ? "main-nav is-open" : "main-nav"} aria-label="التنقل الرئيسي">
@@ -110,12 +110,12 @@ export default function Home() {
               <div className="project-tags"><span>سوق رقمي</span><span>تجارة إلكترونية</span><span>السودان</span></div>
               <a className="button button-outline" href="https://nilemarket.online" target="_blank" rel="noreferrer">زيارة المشروع <ExternalLink size={16} /></a>
             </div>
-            <div className="project-art"><img src="/manus-storage/nile-market_da54a745.jpg" alt="مفهوم سوق النيل الرقمي" /><div className="art-caption">NILE MARKET <span>2024 — مستمر</span></div></div>
+            <div className="project-art"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=85" alt="مفهوم سوق النيل الرقمي" /><div className="art-caption">NILE MARKET <span>2024 — مستمر</span></div></div>
           </div>
         </section>
 
         <section id="ai" className="ai-section section-frame split-section">
-          <div className="ai-art"><img src="/manus-storage/ai-signal_395d2501.jpg" alt="إشارة تجريدية متدفقة للذكاء الاصطناعي" /></div>
+          <div className="ai-art"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=85" alt="إشارة تجريدية متدفقة للذكاء الاصطناعي" /></div>
           <div className="ai-copy"><div className="section-kicker"><span>05</span><span>التقنية والذكاء الاصطناعي</span></div><h2>أدوات تصنع<br /><em>أشياء أفضل.</em></h2><p>الذكاء الاصطناعي ليس بديلًا عن الإبداع؛ بل أداة قوية لاستكشاف الأفكار وحل التحديات التقنية وبناء تجارب رقمية أذكى بسرعة أكبر.</p><a className="text-link" href="#contact">لنستكشف الممكن <ArrowUpRight size={16} /></a></div>
         </section>
 
