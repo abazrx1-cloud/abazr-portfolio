@@ -9,7 +9,9 @@
 - [ ] Verify the deployed GitHub Pages URL.
 - [x] Diagnose and fix the failed GitHub Actions run.
 - [ ] Fix the GitHub Pages subpath routing that shows the app 404 page.
-- [ ] Rebuild, redeploy, and verify the GitHub Pages homepage.
+- [x] Rebuild, redeploy, and verify the GitHub Pages homepage.
+- [ ] Recheck the live GitHub Pages response and diagnose the user's access failure.
+- [ ] Fix any remaining routing or deployment issue and re-verify from an external request.
 
 # Visual refresh checklist
 
