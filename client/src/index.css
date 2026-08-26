@@ -29,7 +29,7 @@ button { font:inherit; }
 .section-frame { padding-left:10vw; padding-right:10vw; }
 .hero { min-height:720px; background:var(--ink); color:#fff; position:relative; display:flex; align-items:center; padding-top:76px; }
 .hero:after { content:""; position:absolute; inset:0; background:linear-gradient(90deg,rgba(16,27,42,.92) 0%,rgba(16,27,42,.67) 43%,rgba(16,27,42,.12) 100%); pointer-events:none; }
-.hero-visual { position:absolute; inset:0; background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2200&q=90'); background-size:cover; background-position:center; opacity:.9; }
+.hero-visual { position:absolute; inset:0; background-image:url('https://raw.githubusercontent.com/abazrx1-cloud/abazr-portfolio/main/client/public/abazr-hero.png'); background-size:cover; background-position:center; opacity:.9; }
 .hero-copy,.hero-aside,.scroll-cue { position:relative; z-index:1; }
 .hero-copy { max-width:710px; padding-top:10px; text-align:right; }
 .eyebrow,.project-label { letter-spacing:.08em; font-size:11px; font-weight:600; color:var(--coral); }
