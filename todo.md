@@ -9,6 +9,6 @@
 
 
 - [ ] Verify the project working tree and current files.
-- [ ] Create or reuse a private GitHub repository named `abazr-portfolio`.
+- [x] User created a GitHub repository visible as `abazr_portfoli...`; verify the full name.
 - [ ] Push the website source and configuration to the repository.
 - [ ] Confirm the remote repository and default branch are accessible.
