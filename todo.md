@@ -1,5 +1,43 @@
 # GitHub upload checklist
 
+# Background parity checklist
+
+## Large asset cleanup
+
+- [ ] Remove the duplicate local background file that blocks Manus checkpoint saving.
+- [ ] Keep the GitHub-hosted background as the source for both live versions.
+- [ ] Save a new checkpoint and verify the GitHub Pages background.
+
+
+## Verification notes
+
+GitHub Pages now loads the same shared hero background asset from the public repository. The homepage returns HTTP 200, the background asset returns HTTP 200, and the rendered GitHub Pages preview shows the shared Earth-at-night hero background behind the Arabic hero copy.
+
+
+- [x] Locate the original Manus hero background asset.
+- [x] Upload the same background to the GitHub repository.
+- [x] Update CSS to use the GitHub-hosted background and redeploy.
+- [x] Verify the background on the GitHub Pages homepage.
+
+# GitHub image visibility checklist
+
+- [x] Add the user-selected image to the repository as a deployable asset.
+- [x] Place the image in the intended hero location in the website.
+- [x] Rebuild and publish GitHub Pages, then verify the image URL.
+
+# Logo parity troubleshooting
+
+- [ ] Compare the exact Manus and GitHub Pages URLs used by the user.
+- [ ] Verify the deployed GitHub bundle and logo asset source.
+- [ ] Fix and redeploy if the GitHub version is stale or points to a missing asset.
+
+# Version parity checklist
+
+- [ ] Compare Manus and GitHub Pages source and live responses.
+- [ ] Choose the latest verified local version as the source of truth.
+- [ ] Sync the same files and assets to GitHub and publish Manus.
+- [ ] Verify both URLs show the same update.
+
 # Logo integration checklist
 
 - [ ] Prepare the user-provided logo as a deployable web asset.
